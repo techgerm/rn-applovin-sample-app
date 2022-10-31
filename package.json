@@ -8,7 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "postinstall": "cd ios && ruby AppLovinQualityServiceSetup-ios.rb && cd ../"
+    "postinstall": "cd ios && ruby AppLovinQualityServiceSetup-ios.rb update && cd ../"
   },
   "dependencies": {
     "react": "18.1.0",
